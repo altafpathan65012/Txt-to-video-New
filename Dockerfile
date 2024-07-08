@@ -1,4 +1,4 @@
-FROM ghcr.io/missemily2022/anasty:heroku
+FROM python:3.9.7-slim-buster
 
 WORKDIR /usr/src/app
 RUN chmod 777 /usr/src/app
